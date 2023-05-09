@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS syntax */
+
+h2, 
+h1{
+    color: gray;
+    font-size: 20px;
+}
+
+/* Selectors  */
+
+ul{
+    margin: 40px;
+}
+
+li{
+    font-size: 24px;
+}
+
+.list-item{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list-item{
+    color: blue;
+}
+
+[disabled]{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cascading ( Kaskadlanish ) */
+
+#p{
+    color: red;
+}
+
+.p{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+
+p{
+    color: green;
+    font-size: 20px;
+
+}
+
+/* Specificity ( O'ziga xoslik ) */
+
+.text{
+    margin: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Lesson 1 Selectors Tanlab oluvchilar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>CSS syntax</h1>
+
+    <h2>
+      Selectors
+      Selectors ( HTML hujjatimizdan elementlarni tanlab olish uchun ishlatiladi )
+    </h2>
+    <ul>
+      <li>Element (Tag)</li>
+      <li class="list-item">Class</li>
+      <li id="list-item">ID</li>
+      <li disabled>Attribute</li>
+      <li>Unversal</li>
+    </ul>
+
+    <div>
+      Cascading ( Kaskadlanish )
+      <p class="p" id="p">
+        Cascading ( Kaskadlanish ) bu Bir HTML element ga bir nechta CSS xossa ko'rsatilishi 
+        va ulardan birining element ga ammal qilishi
+      </p>
+
+      Specificity ( O'ziga xoslik )
+      <p class="text">
+        CSS O'ziga xosslik { Qoidalar turli xil ustivorlikka (prioritet) ga ega bo'lishadi } <br>
+        <hr style="border: 3px solid black;">
+        <span id="span"></span>
+      </p>
+    </div>
+
+    <div>
+        <h2>Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequatur ad repudiandae.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio aperiam magnam error?</p>
+            <section>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </section>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    </div>
+
+    <p class="text" id="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, voluptate! Facilis, minus nisi.</p>
+  </body>
+</html>
